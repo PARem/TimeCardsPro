@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #e2e2e2;
+}
+
+
+form {
+    margin: 0; /* Убираем отступы */
+}
+div.box{
+    background-color: #4e555b;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    float: left;
+    border-radius: 7%;
+}
+div.col-md-4{
+    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    height: auto;
+    min-height: 100px;
+    width: 350px;
+    background: #FFFFFF;
+    border-radius: 0.3rem;
+
+}div.col-md-7{
+     margin-bottom: 0.5rem;
+     margin-top: 0.2rem;
+     margin-left: 0.6rem;
+     margin-right: 0.6rem;
+     width: 580px;
+     height: 560px;
+     background: #ffffff;
+     border-radius: .3rem;
+ }
+ .myWrap{
+     vertical-align: middle;
+     margin-top: 0.5rem;
+ }
+div.box:hover {
+    cursor: pointer;
+    background-color: #62696f;
+    width: 54px;
+    height: 54px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+div#addNewButton{
+    float: right;
+    margin: 0.5em;
+}
+div.event{
+    margin: 1rem;
+}
+button.myClose{
+    height: 3.5rem;
+    background-color: #afb7bd;
+    border-radius: 0 10% 10% 0;
+}
+div.event label{
+    width: 3em;
+    height: 3.5rem;
+    float:left;
+    border-radius:10% 0 0 10%;
+}
+.event-name{
+    width: 54%;
+    height: 3.5rem;
+    float:left;
+    border-radius:0;
+}
+.event-time{
+    width: 19%;
+    height: 3.5rem;
+    float:left;
+    border-radius:0;
+}
+#button_add_event{
+    border-radius: 3px;
+}
